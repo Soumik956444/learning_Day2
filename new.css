@@ -5,8 +5,8 @@
 }
 
 #h4{
-    /* padding: 25px;
-    margin: 20px; */
+    /* padding: 30px; */
+    /* margin: 70px; */
     margin-left: 2rem;
     text-align: start;
     font-size: 24px;
@@ -19,4 +19,5 @@ nav ul{
     display: flex;
     list-style: none;
     gap: 10px;
+    background: transparent;
 }
