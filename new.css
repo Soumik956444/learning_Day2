@@ -4,38 +4,25 @@
     box-sizing: border-box;
 }
 
-/* #h4{
-    margin-top: 50px;
-    margin-left:45px;
-    font-style:oblique;
-    font-size: 26px;
-    color: rgba(251, 23, 3, 0.837);
-}
-
-nav ul{
-    display:flex;
-    margin-left: 70rem;
-    margin-top: 1px;
-} */
-
 nav{
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 40px;
     padding: 20px ;
+    margin-right: 50px;
 }
 
 nav ul{
     display: flex;
-    gap: 10px;
+    gap: 70px;
     list-style: none;
     background: transparent;
-    
+
 }
 
 #h4{
-    margin-right: 65%;
+    margin-right: 55%;
     padding: 0;
     border: 0;
     text-align: start;
@@ -44,3 +31,67 @@ nav ul{
     color:rgba(251, 23, 3, 0.837);
 }
 
+
+a{
+    text-decoration: none;
+}
+
+
+#home1btn{
+    border: 0;
+    background: transparent;
+    text-decoration: none;
+    width: 15px;
+    height: 10px;
+    padding: 15px;
+    margin: 0;
+    font-size: 20px;
+}
+
+#about2btn{
+    border: 0;
+    background: transparent;
+    text-decoration: none;
+    width: 15px;
+    height: 10px;
+    padding: 15px;
+    margin: 0;
+    font-size: 20px;
+}
+
+#portfolio3btn{
+    border: 0;
+    background: transparent;
+    text-decoration: none;
+    width: 15px;
+    height: 10px;
+    padding: 15px;
+    margin: 0;
+    font-size: 20px;
+}
+
+#contact4btn{
+    border: 0;
+    background: transparent;
+    text-decoration: none;
+    width: 15px;
+    height: 10px;
+    padding: 15px;
+    margin: 0;
+    font-size: 20px;
+}
+
+.search{
+    border: 0;
+    text-decoration: none;
+    margin: 0;
+    padding: 15px;
+    height: 10px;
+    font-size: 9px;
+}
+
+#h1{
+    text-align: center;
+    margin: 100px;
+    padding: 100px;
+}
