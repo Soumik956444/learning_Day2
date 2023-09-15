@@ -30,6 +30,8 @@ nav ul{
     display: flex;
     gap: 10px;
     list-style: none;
+    background: transparent;
+    
 }
 
 #h4{
