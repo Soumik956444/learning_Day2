@@ -28,7 +28,7 @@ nav ul{
     text-align: start;
     font-size: 22px;
     font-style: oblique;
-    color:rgba(251, 23, 3, 0.837);
+    /* color:rgba(251, 23, 3, 0.837); */
 }
 
 
@@ -95,19 +95,57 @@ a{
     padding: 70px;
     text-align: center;
     background: transparent;
-    font-size: 45px;
+    font-size: 50px;
 }
 
 #h2{
     text-align: center;
     margin: 8px;
     padding: 8px;
-    font-size: 30px;
+    font-size: 35px;
     background: transparent;
 }
 
 #paragraph{
     text-align: center;
-    margin: 5px;
+    margin: 15px;
     padding: 5px;
+    font-size: 20px;
+    background: transparent;
 }
+.div-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.custom-button1{
+    display: flex;
+    justify-content: center;
+    background-color: cyan;
+    border-radius: 2rem;
+    border: 0;
+    box-shadow: 0 0 5px cyan, 0 0 25px cyan;
+    font-size: 17px;
+    padding: 10px 15px;
+}
+
+.custom-button1:hover{
+    box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan, 0 0 200px cyan;
+}
+
+.custom-button2{
+    display: flex;
+    justify-content: center;
+    background-color: cyan;
+    border-radius: 2rem;
+    border: 0;
+    box-shadow: 0 0 5px cyan, 0 0 25px cyan;
+    font-size: 17px;
+    padding: 10px 15px;
+}
+
+.custom-button2:hover{
+    box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan, 0 0 200px cyan;
+} 
