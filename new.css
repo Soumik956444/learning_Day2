@@ -4,20 +4,41 @@
     box-sizing: border-box;
 }
 
-#h4{
-    /* padding: 30px; */
-    /* margin: 70px; */
-    margin-left: 2rem;
-    text-align: start;
-    font-size: 24px;
-    font-style: oblique;
+/* #h4{
+    margin-top: 50px;
+    margin-left:45px;
+    font-style:oblique;
+    font-size: 26px;
     color: rgba(251, 23, 3, 0.837);
 }
 
 nav ul{
+    display:flex;
     margin-left: 70rem;
+    margin-top: 1px;
+} */
+
+nav{
     display: flex;
-    list-style: none;
-    gap: 10px;
-    background: transparent;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    padding: 20px ;
 }
+
+nav ul{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+
+#h4{
+    margin-right: 65%;
+    padding: 0;
+    border: 0;
+    text-align: start;
+    font-size: 22px;
+    font-style: oblique;
+    color:rgba(251, 23, 3, 0.837);
+}
+
