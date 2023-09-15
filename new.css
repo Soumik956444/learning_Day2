@@ -91,7 +91,23 @@ a{
 }
 
 #h1{
+    margin: 70px;
+    padding: 70px;
     text-align: center;
-    margin: 100px;
-    padding: 100px;
+    background: transparent;
+    font-size: 45px;
+}
+
+#h2{
+    text-align: center;
+    margin: 8px;
+    padding: 8px;
+    font-size: 30px;
+    background: transparent;
+}
+
+#paragraph{
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
 }
