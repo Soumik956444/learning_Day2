@@ -1,9 +1,12 @@
+/* universal selection  */
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* navigation bar  */
 nav{
     display: flex;
     justify-content: center;
@@ -13,14 +16,18 @@ nav{
     margin-right: 50px;
 }
 
+/* navigation bar list */
 nav ul{
     display: flex;
     gap: 70px;
     list-style: none;
     background: transparent;
-
 }
 
+body{
+    background-image: url(pic/What-is-Sepia-Tone-Photography-How-It-Works-and-Why-Use-It-Featured.jpg);
+}
+/* picturesque heading */
 #h4{
     margin-right: 55%;
     padding: 0;
@@ -28,15 +35,15 @@ nav ul{
     text-align: start;
     font-size: 22px;
     font-style: oblique;
-    /* color:rgba(251, 23, 3, 0.837); */
+    color:rgba(251, 23, 3, 0.837);
 }
 
-
+/* navigation bar buttons under line remove */
 a{
     text-decoration: none;
 }
 
-
+/* navigation bar home button  */
 #home1btn{
     border: 0;
     background: transparent;
@@ -48,6 +55,7 @@ a{
     font-size: 20px;
 }
 
+/* navigation bar about button */
 #about2btn{
     border: 0;
     background: transparent;
@@ -59,6 +67,7 @@ a{
     font-size: 20px;
 }
 
+/* navigation bar portfolio button   */
 #portfolio3btn{
     border: 0;
     background: transparent;
@@ -70,6 +79,7 @@ a{
     font-size: 20px;
 }
 
+/* navigation contact button  */
 #contact4btn{
     border: 0;
     background: transparent;
@@ -81,6 +91,7 @@ a{
     font-size: 20px;
 }
 
+/* navigation bar search baar */
 .search{
     border: 0;
     text-decoration: none;
@@ -90,6 +101,7 @@ a{
     font-size: 9px;
 }
 
+/* The PicturesQue heading */
 #h1{
     margin: 70px;
     padding: 70px;
@@ -98,6 +110,7 @@ a{
     font-size: 50px;
 }
 
+/* Welcome to the picturesque heading */
 #h2{
     text-align: center;
     margin: 8px;
@@ -106,6 +119,7 @@ a{
     background: transparent;
 }
 
+/* paragraph */
 #paragraph{
     text-align: center;
     margin: 15px;
@@ -113,6 +127,8 @@ a{
     font-size: 20px;
     background: transparent;
 }
+
+/* glowing button position adjust  */
 .div-btn{
     display: flex;
     justify-content: center;
@@ -120,6 +136,7 @@ a{
     gap: 15px;
 }
 
+/* glowing buttons glow setting for ....BUY NOW.... button */
 .custom-button1{
     display: flex;
     justify-content: center;
@@ -135,6 +152,7 @@ a{
     box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan, 0 0 200px cyan;
 }
 
+/* glowing buttons glow setting for .....DISCOVER MORE...... button  */
 .custom-button2{
     display: flex;
     justify-content: center;
@@ -149,3 +167,8 @@ a{
 .custom-button2:hover{
     box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan, 0 0 200px cyan;
 } 
+
+.footer{
+    background-color: blue;
+    margin-top: 300px;
+}
