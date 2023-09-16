@@ -25,9 +25,9 @@ nav ul{
 }
 
 
-body{
+/* body{
     background-image: url(pic/What-is-Sepia-Tone-Photography-How-It-Works-and-Why-Use-It-Featured.jpg);
-}
+} */
 
 
 /* picturesque heading */
@@ -172,9 +172,50 @@ a{
 } 
 
 
-.footer{
-    align-items: center;
-    display:flex;
-    margin: 200px;
-    padding-top: 100px;
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(pic/What-is-Sepia-Tone-Photography-How-It-Works-and-Why-Use-It-Featured.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer styling */
+
+
+
+
+
+
+
+
+
+footer{
+    margin: 0px;
+    margin-top: 287px;
+    padding: 0px;
+    background-color: black;
+}
+
+
+
+.footerContainer{
 }
