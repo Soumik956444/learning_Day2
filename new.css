@@ -11,9 +11,12 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 40px;
+    /* margin-top: 40px; */
     padding: 20px ;
-    margin-right: 50px;
+    /* margin-right: 50px; */
+    height: 10vh;
+    width: 100vw;
+    background: transparent;
 }
 
 /* navigation bar list */
@@ -174,18 +177,31 @@ a{
 
 
 
-body{
+/* body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     background-image: url(pic/What-is-Sepia-Tone-Photography-How-It-Works-and-Why-Use-It-Featured.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+} */
+
+body{
+    height: 100vh;
+    width: 100vw;
 }
 
-
-
-
+.main{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: url(pic/What-is-Sepia-Tone-Photography-How-It-Works-and-Why-Use-It-Featured.jpg);
+    background-repeat: no-repeat;
+    object-fit: contain;
+}
 
 
 
@@ -217,5 +233,6 @@ footer{
 
 
 
-.footerContainer{
-}
+
+
+
