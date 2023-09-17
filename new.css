@@ -191,7 +191,7 @@ body{
     width: 100vw;
 }
 
-.main{
+/* .main{
     height: 90%;
     width: 100%;
     display: flex;
@@ -201,7 +201,7 @@ body{
     background: url(pic/What-is-Sepia-Tone-Photography-How-It-Works-and-Why-Use-It-Featured.jpg);
     background-repeat: no-repeat;
     object-fit: contain;
-}
+} */
 
 #image{
     height: 100vh;
