@@ -226,24 +226,28 @@ body{
 
 
 
-
-
-
-
-
 footer{
     margin: 0px;
     margin-top: 311px;
     padding: 0px;
-    background-color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+}
 
+
+.socialIcons{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    gap: 50px;
+    margin: 50px;
+    padding: 30px;
 }
 
 
 
-
+#footernav{
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+}
 
 
