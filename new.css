@@ -27,12 +27,6 @@ nav ul{
     background: transparent;
 }
 
-
-/* body{
-    background-image: url(pic/What-is-Sepia-Tone-Photography-How-It-Works-and-Why-Use-It-Featured.jpg);
-} */
-
-
 /* picturesque heading */
 #h4{
     margin-right: 55%;
@@ -238,8 +232,9 @@ footer{
     align-items:center;
     justify-content:center;
     gap: 50px;
-    margin: 50px;
-    padding: 30px;
+    /* margin: 50px;
+    padding: 30px; */
+    font-size: 27px;
 }
 
 
@@ -250,4 +245,25 @@ footer{
     display: inline-block;
 }
 
+
+
+
+
+/* footer{
+    background: brown;
+    height: auto;
+    width: 100vh;
+    font-family: "open sans";
+    padding-top: 40px;
+    color: white;
+}
+
+
+.footerContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+} */
 
