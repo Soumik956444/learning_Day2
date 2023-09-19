@@ -222,8 +222,9 @@ body{
 
 footer{
     margin: 0px;
-    margin-top: 311px;
+    /* margin-top: 311px; */
     padding: 0px;
+    background-color: black;
 }
 
 
@@ -267,3 +268,8 @@ footer{
     text-align: center;
 } */
 
+
+
+#lastline{
+    color: cyan;
+}
