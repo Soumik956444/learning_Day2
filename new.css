@@ -181,8 +181,8 @@ a{
 } */
 
 body{
-    height: 100vh;
-    width: 100vw;
+    height: 110vh;
+    width: 110vw;
     overflow-x: hidden;
 }
 
@@ -199,11 +199,32 @@ body{
 } */
 
 #image{
-    height: 100vh;
-    width: 100vw;
+    height: 110vh;
+    width: 110vw;
     background-image: url(pic/What-is-Sepia-Tone-Photography-How-It-Works-and-Why-Use-It-Featured.jpg);
     background-size: 100% 100%;
+    overflow: hidden;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -217,34 +238,63 @@ body{
 
 /* footer styling */
 
+/* bvdcbvsdbvjn */
 
 
-
-footer{
-    margin: 0px;
-    /* margin-top: 311px; */
-    padding: 0px;
-    background-color: black;
+footer {
+    background-color: #333;
+    position: absolute;
+    width: 110vw;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+    border: 0;
+    margin-top: 435px;
 }
-
 
 .socialIcons{
     display: flex;
     align-items:center;
     justify-content:center;
     gap: 50px;
-    /* margin: 50px;
-    padding: 30px; */
     font-size: 27px;
 }
 
-
-
-#footernav{
-    align-items: center;
+.footerlist{
+    list-style-type: none;
+    display: flex;
     justify-content: center;
-    display: inline-block;
+    padding: 15px;
+    gap: 100px;
 }
+
+#lastline{
+    color: cyan;
+    text-align: center;
+    padding: 15px;
+}
+
+
+
+
+/* footer{
+    position: absolute;
+    bottom: 0;
+    background-color: black;
+    padding: 10px;
+    width: 100%;
+    color: #fff;
+    margin: 0;
+    border: 0;
+} */
+
+
+
+
+/* dfjhsnildds */
+
+
+
 
 
 
@@ -270,6 +320,18 @@ footer{
 
 
 
-#lastline{
-    color: cyan;
-}
+
+
+/* SDNBVKjsdbvkj */
+
+
+
+
+
+
+
+
+
+
+
+
