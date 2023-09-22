@@ -47,7 +47,7 @@
     color: rgb(24, 56, 236);
   }
   
-  /* .search {
+  .search {
     height: 100%;
     width: 30%;
     display: flex;
@@ -68,7 +68,7 @@
   .search-icn{
     font-size: 25px;
     cursor: pointer;
-  } */
+  }
   
   .firstHero {
     height: 100vh;
@@ -152,42 +152,4 @@
     margin-top: 20px;
   }
   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  /* ************** */
-
-  ::selection{
-    background: #9696e0;
-  }
-
-  .search-wrapper{
-    position:absolute;
-    transform: translate(-50%, -50%);
-    top: 50%;
-    left: 50%;
-  }
-
-
-  .search-wrapper .input-holder{
-    height: 70px;
-    width: 70px;
-    overflow: hidden;
-    background-color: rgba(255, 255, 255, 0);
-    border-radius: 6px;
-    position: relative;
-    transition: all 0.3s ease-in-out;
-  }
 
