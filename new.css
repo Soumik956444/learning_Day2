@@ -47,7 +47,7 @@
     color: rgb(24, 56, 236);
   }
   
-  .search {
+  /* .search {
     height: 100%;
     width: 30%;
     display: flex;
@@ -68,7 +68,7 @@
   .search-icn{
     font-size: 25px;
     cursor: pointer;
-  }
+  } */
   
   .firstHero {
     height: 100vh;
@@ -152,3 +152,19 @@
     margin-top: 20px;
   }
   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
