@@ -53,6 +53,7 @@ a{
     padding: 15px;
     margin: 0;
     font-size: 20px;
+    color: black;
 }
 
 /* navigation bar about button */
@@ -103,8 +104,8 @@ a{
 
 /* The PicturesQue heading */
 #h1{
-    margin: 70px;
-    padding: 70px;
+    margin: 30px;
+    padding: 20px;
     text-align: center;
     background: transparent;
     font-size: 50px;
@@ -169,17 +170,6 @@ a{
 } 
 
 
-
-
-/* body{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-image: url(pic/What-is-Sepia-Tone-Photography-How-It-Works-and-Why-Use-It-Featured.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-} */
-
 body{
     height: 110vh;
     width: 110vw;
@@ -193,7 +183,6 @@ body{
     align-items: center;
     justify-content: center;
     text-align: center;
-    /* background: url(pic/What-is-Sepia-Tone-Photography-How-It-Works-and-Why-Use-It-Featured.jpg); */
     background-repeat: no-repeat;
     object-fit: contain;
     overflow: hidden;
@@ -204,37 +193,7 @@ body{
     width: 100vw;
     background-image: url(pic/What-is-Sepia-Tone-Photography-How-It-Works-and-Why-Use-It-Featured.jpg);
     background-size: 100% 100%;
-    /* overflow: hidden; */
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* footer styling */
@@ -282,52 +241,6 @@ footer {
 
 
 
-/* footer{
-    position: absolute;
-    bottom: 0;
-    background-color: black;
-    padding: 10px;
-    width: 100%;
-    color: #fff;
-    margin: 0;
-    border: 0;
-} */
-
-
-
-
-/* dfjhsnildds */
-
-
-
-
-
-
-
-
-/* footer{
-    background: brown;
-    height: auto;
-    width: 100vh;
-    font-family: "open sans";
-    padding-top: 40px;
-    color: white;
-}
-
-
-.footerContainer{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-} */
-
-
-
-
-
-/* SDNBVKjsdbvkj */
 
 
 
