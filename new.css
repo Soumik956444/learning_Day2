@@ -108,6 +108,7 @@ a{
     padding: 20px;
     text-align: center;
     background: transparent;
+    color: white;
     font-size: 50px;
 }
 
@@ -116,6 +117,7 @@ a{
     text-align: center;
     margin: 8px;
     padding: 8px;
+    color: white;
     font-size: 35px;
     background: transparent;
 }
@@ -127,6 +129,7 @@ a{
     padding: 5px;
     font-size: 20px;
     background: transparent;
+    color: skyblue
 }
 
 /* glowing button position adjust  */
