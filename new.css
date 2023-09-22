@@ -1,258 +1,154 @@
-/* universal selection  */
-
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-/* navigation bar  */
-nav{
+  }
+  
+  nav {
     display: flex;
-    justify-content: center;
     align-items: center;
-    /* margin-top: 40px; */
-    padding: 20px ;
-    /* margin-right: 50px; */
+    justify-content: space-between;
     height: 10vh;
     width: 100vw;
-    background: transparent;
-}
-
-/* navigation bar list */
-nav ul{
+    /* background-color: red; */
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(10px);
+    z-index: 999;
+  }
+  .logo {
+    height: 100%;
+    width: 10%;
     display: flex;
-    gap: 70px;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+  }
+  
+  .items {
+    height: 100%;
+    width: 70%;
+    /* background-color: green; */
+  }
+  
+  .items > ul {
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+  }
+  
+  .items ul > li {
     list-style: none;
-    background: transparent;
-}
-
-/* picturesque heading */
-#h4{
-    margin-right: 55%;
-    padding: 0;
-    border: 0;
-    text-align: start;
-    font-size: 22px;
-    font-style: oblique;
-    color:rgba(251, 23, 3, 0.837);
-}
-
-/* navigation bar buttons under line remove */
-a{
+    padding: 1rem;
+  }
+  .items ul > li > a {
     text-decoration: none;
-}
-
-/* navigation bar home button  */
-#home1btn{
-    border: 0;
-    background: transparent;
-    text-decoration: none;
-    width: 15px;
-    height: 10px;
-    padding: 15px;
-    margin: 0;
-    font-size: 20px;
-    color: black;
-}
-
-/* navigation bar about button */
-#about2btn{
-    border: 0;
-    background: transparent;
-    text-decoration: none;
-    width: 15px;
-    height: 10px;
-    padding: 15px;
-    margin: 0;
-    font-size: 20px;
-}
-
-/* navigation bar portfolio button   */
-#portfolio3btn{
-    border: 0;
-    background: transparent;
-    text-decoration: none;
-    width: 15px;
-    height: 10px;
-    padding: 15px;
-    margin: 0;
-    font-size: 20px;
-}
-
-/* navigation contact button  */
-#contact4btn{
-    border: 0;
-    background: transparent;
-    text-decoration: none;
-    width: 15px;
-    height: 10px;
-    padding: 15px;
-    margin: 0;
-    font-size: 20px;
-}
-
-/* navigation bar search baar */
-.search{
-    border: 0;
-    text-decoration: none;
-    margin: 0;
-    padding: 15px;
-    height: 10px;
-    font-size: 9px;
-}
-
-/* The PicturesQue heading */
-#h1{
-    margin: 30px;
-    padding: 20px;
-    text-align: center;
-    background: transparent;
-    color: white;
-    font-size: 50px;
-}
-
-/* Welcome to the picturesque heading */
-#h2{
-    text-align: center;
-    margin: 8px;
-    padding: 8px;
-    color: white;
-    font-size: 35px;
-    background: transparent;
-}
-
-/* paragraph */
-#paragraph{
-    text-align: center;
-    margin: 15px;
-    padding: 5px;
-    font-size: 20px;
-    background: transparent;
-    color: skyblue
-}
-
-/* glowing button position adjust  */
-.div-btn{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
-}
-
-/* glowing buttons glow setting for ....BUY NOW.... button */
-.custom-button1{
-    display: flex;
-    justify-content: center;
-    background-color: cyan;
-    border-radius: 2rem;
-    border: 0;
-    box-shadow: 0 0 5px cyan, 0 0 25px cyan;
-    font-size: 17px;
-    padding: 10px 15px;
-}
-
-.custom-button1:hover{
-    box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan, 0 0 200px cyan;
-}
-
-/* glowing buttons glow setting for .....DISCOVER MORE...... button  */
-.custom-button2{
-    display: flex;
-    justify-content: center;
-    background-color: cyan;
-    border-radius: 2rem;
-    border: 0;
-    box-shadow: 0 0 5px cyan, 0 0 25px cyan;
-    font-size: 17px;
-    padding: 10px 15px;
-}
-
-.custom-button2:hover{
-    box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan, 0 0 200px cyan;
-} 
-
-
-body{
-    height: 110vh;
-    width: 110vw;
-    overflow-x: hidden;
-}
-
-.main{
-    height: 90%;
-    width: 100%;
+    font-size: 1.5rem;
+    color: rgb(24, 56, 236);
+  }
+  
+  .search {
+    height: 100%;
+    width: 30%;
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: center;
-    background-repeat: no-repeat;
-    object-fit: contain;
-    overflow: hidden;
-}
-
-#image{
+    gap: 1rem;
+  }
+  
+  .search > input {
+    font-size: 1.2rem;
+    border-radius: 20px;
+    padding: 0.3rem;
+    padding-left: 10px;
+    outline: none;
+    border: 1px solid black;
+  }
+  
+  .search-icn{
+    font-size: 25px;
+    cursor: pointer;
+  }
+  
+  .firstHero {
     height: 100vh;
     width: 100vw;
-    background-image: url(pic/What-is-Sepia-Tone-Photography-How-It-Works-and-Why-Use-It-Featured.jpg);
-    background-size: 100% 100%;
-}
-
-
-/* footer styling */
-
-
-
-footer {
-    background-color: #333;
-    position: relative;
-    /* width: 100vw; */
-    color: #333;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+  }
+  
+  .firstImage {
+    height: 100%;
+    width: 100%;
+    background: url(pic/What-is-Sepia-Tone-Photography-How-It-Works-and-Why-Use-It-Featured.jpg);
+    background-repeat: no-repeat;
+    object-fit: contain;
+    background-size: cover;
+    background-position: center;
     display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .firstDetails {
+    z-index: 10;
+    height: 400px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 13px;
+    background-color: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(5px);
+  }
+  .firstDetails > h1 {
+    font-size: 2rem;
+  }
+  .firstDetails > p {
+    font-size: 1.3rem;
+  }
+  
+  .custom-button {
+    background-color: cyan;
+    border-radius: 2rem;
     border: 0;
-    margin: 0;
-    padding: 15px;
-    /* margin-top: 435px; */
-}
-
-.socialIcons{
+    box-shadow: 0 0 5px cyan, 0 0 25px cyan;
+    font-size: 17px;
+    padding: 10px 15px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .custom-button:hover {
+    box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan,
+      0 0 200px cyan;
+  }
+  
+  .footer {
+    height: 20vh;
+    width: 100vw;
+    background-color: gray;
     display: flex;
-    align-items:center;
-    justify-content:center;
-    gap: 50px;
-    font-size: 27px;
-}
-
-.footerlist{
-    list-style-type: none;
-    display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
-    padding: 15px;
-    gap: 100px;
-}
-
-#lastline{
-    color: cyan;
+    align-items: center;
+  }
+  
+  .footer > .icons {
+    height: 30%;
+    width: 100%;
     text-align: center;
-    padding: 15px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  }
+  
+  .footer > .icons > a > .icon {
+    padding: 10px;
+  }
+  
+  .footer > .icons > a > i {
+    font-size: 25px;
+  }
+  
+  .footer > h4 {
+    font-size: 22px;
+    margin-top: 20px;
+  }
+  
