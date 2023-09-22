@@ -186,24 +186,25 @@ body{
     overflow-x: hidden;
 }
 
-/* .main{
+.main{
     height: 90%;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: url(pic/What-is-Sepia-Tone-Photography-How-It-Works-and-Why-Use-It-Featured.jpg);
+    /* background: url(pic/What-is-Sepia-Tone-Photography-How-It-Works-and-Why-Use-It-Featured.jpg); */
     background-repeat: no-repeat;
     object-fit: contain;
-} */
+    overflow: hidden;
+}
 
 #image{
-    height: 110vh;
-    width: 110vw;
+    height: 100vh;
+    width: 100vw;
     background-image: url(pic/What-is-Sepia-Tone-Photography-How-It-Works-and-Why-Use-It-Featured.jpg);
     background-size: 100% 100%;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 
@@ -238,18 +239,21 @@ body{
 
 /* footer styling */
 
-/* bvdcbvsdbvjn */
 
 
 footer {
     background-color: #333;
-    position: absolute;
-    width: 110vw;
+    position: relative;
+    /* width: 100vw; */
     color: #333;
-    padding: 20px;
     text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
     border: 0;
-    margin-top: 435px;
+    margin: 0;
+    padding: 15px;
+    /* margin-top: 435px; */
 }
 
 .socialIcons{
@@ -263,6 +267,7 @@ footer {
 .footerlist{
     list-style-type: none;
     display: flex;
+    align-items: center;
     justify-content: center;
     padding: 15px;
     gap: 100px;
