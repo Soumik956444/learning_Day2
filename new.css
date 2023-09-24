@@ -102,11 +102,11 @@
   }
   .firstDetails > h1 {
     font-size: 2rem;
-    color: lightgreen;
+    color: purple;
   }
   .firstDetails > p {
     font-size: 1.3rem;
-    color: blue;
+    color: darkgreen;
   }
   
   .custom-button {
