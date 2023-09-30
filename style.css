@@ -1,0 +1,39 @@
+.menu{
+    position: relative;
+    width: 280px;
+    height: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.menu .toggle{
+    position: relative;
+    height: 60px;
+    width: 60px;
+    background: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: 1.25s;
+    z-index: 5;
+}
+
+
+.menu .active .toggle{
+    transform: rotate(360drg);
+    box-shadow: 0 0 0 2px #333;
+}
+
+
+
+.main{
+    padding: 0;
+    margin: 0;
+    background-color: green;
+}
