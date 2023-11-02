@@ -20,9 +20,9 @@ body{
     width: 300px;
     background-color: black;
     border-radius: 20px;
-    position: absolute;
-    z-index: 1;
-    margin-left: 380px;
+    /* position: absolute; */
+    /* z-index: 1; */
+    /* margin-left: 380px; */
 }
 
 .img{
@@ -58,6 +58,6 @@ body{
     width: 300px;
     background-color: black;
     border-radius: 20px;
-    position: absolute;
-    z-index: 2;
+    /* position: absolute; */
+    /* z-index: 2; */
 }
